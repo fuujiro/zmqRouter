@@ -46,7 +46,7 @@ git clone https://github.com/fuujiro/zmqRouter
 PS C:\Users\jarryfeng\Documents\zmqRouter> pwd
 C:\Users\jarryfeng\Documents\zmqRouter
 # 例为Windows下的挂载操作，其他系统命令一致，但路径方式需要自行改动
-docker run -ti --rm --net=host -v "//C/Users/jarryfeng/Documents/zmqRouter/cpp:/root/zmqRouter:rw" hub.oa.com/minigo-ai/zmqrtdealer /bin/bash
+docker run -ti --rm --net=host -v "<path_to_zmqRouter>/cpp:/root/zmqRouter:rw" <name:tag_of_yourDocker> /bin/bash
 # 执行见到如下命令，即成功
 [root@docker-desktop /]
 # 进入项目
