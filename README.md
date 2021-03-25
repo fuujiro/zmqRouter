@@ -30,7 +30,7 @@ docker pull hub.oa.com/minigo-ai/zmqrtdealer:latest
 #### 4.1.2 clone项目代码
 
 ```bash
-git clone http://git.code.oa.com/jarryfeng/zmqRouter.git
+git clone https://github.com/fuujiro/zmqRouter
 ```
 
 #### 4.1.3 挂载docker
