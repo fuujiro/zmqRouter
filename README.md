@@ -23,8 +23,14 @@ ZeroMQ提供的ROUTER/DEALER组合模式，可以轻松搭建一个高性能异�
 
 #### 4.1.1 拉取docker环境
 
+> 这一步docker我没去测试了，大家如遇到环境问题，请自行解决。
+
 ```bash
-docker pull hub.oa.com/minigo-ai/zmqrtdealer:latest
+docker pull yhc44/cppzmq-docker
+
+# or maybe you need
+
+docker pull tuxknight/pyzmq
 ```
 
 #### 4.1.2 clone项目代码
